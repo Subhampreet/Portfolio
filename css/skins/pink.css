@@ -1,0 +1,75 @@
+.aside .logo a::before{
+    border-top: 4px solid #ce0934;
+    border-left: 4px solid #ce0934 ;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #ce0934;
+    border-bottom: 4px solid #ce0934 ;
+}
+
+.contact .contact-info-item .icon .fa,
+.project .project-item-inner .project-info .project-tags a,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    /* color: #0569c7; */
+    color: #ce0934;
+
+}
+
+
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #0770d3;
+    /* background-color: #ce0934; */
+}
+
+.about .about-content .skills .skill-item .progress .y{
+    background-color: #f0ec20;
+}
+
+.project .project-item-inner .project-img .project-date-lb,
+.project .project-item-inner .project-info .links  .lb,
+.about .about-content .skills .skill-item .progress .b{
+    background-color: #7005eb;
+}
+
+
+.home .intro .social-links .lb,
+.about .about-content .skills .skill-item .progress .lb{
+    background-color: #0c3dc4;
+}
+
+.about .about-content .skills .skill-item .progress .o{
+    background-color: #088d1e;
+}
+
+
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.blog .blog-item-inner .blog-img .blog-date,
+.service .service-item .service-item-inner:hover .icon,
+.btn,
+.section-title h2::before,
+.section-title h2::after,
+.project .project-item-inner .project-info .links  .red,
+.project .project-item-inner .project-img .project-date,
+.home .intro .social-links .pink{
+    background-color: #ce0934;
+}
+
+.project .project-item-inner .project-info .links  .black,
+.home .intro .social-links .black{
+    background-color: #222;
+}
+
+
+.home .intro p span{
+    color: #06080a;
+
+}
