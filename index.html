@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,7 +37,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+
+    <!-- ---------------GALLERY------------------- -->
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/gallery.css">
   </head>
+
+
   <body>
     <!-- Main Content -->
     <div class="main-container">
@@ -508,6 +519,8 @@
                 <source src="./assets/netflix.mp4" type="video/mp4">
               </video>
             </div> -->
+            
+
             <div class="row">
               <div class="btn">See All</div>
             </div>
@@ -516,6 +529,157 @@
 
 
         <!--Project  Section End -->
+
+        <!-- GALLERY -->
+        <section class="portfolio section" id="portfolio">
+          <div class="container">
+            <div class="container-fluid padd-15">
+              <div class="row">
+          
+                <div align="center">
+                  <button class="filter-button" data-filter="all">All</button>
+                  <button class="filter-button" data-filter="category1">Front-End</button>
+                  <button class="filter-button" data-filter="category2">JavaScript</button>
+                  <button class="filter-button" data-filter="category3">React Js</button>
+                  <button class="filter-button" data-filter="category4">MERN Stack</button>
+                </div>
+              </div>
+              <div class="row">              
+                <br/>
+          
+                      <div class="gallery_product filter category2">
+                          <a class="fancybox" rel="ligthbox" href="./assets/Gallery/binarybytes-main.png">
+                              <img class="img-responsive" alt="" src="./assets/Gallery/Binary Bytes.png" width="360" />
+                              <div class='img-info'>
+                                  <h4>Image Title 1</h4>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                  
+                              </div>
+                          </a>
+                      </div>
+          
+                      
+          
+                      <div class="gallery_product filter category2">
+                           <a class="fancybox" rel="ligthbox" href="./assets/Gallery/spectrum-main.png">
+                              <img class="img-responsive" alt="" src="./assets/Gallery/Spectrum.png" width="360" />
+                              <div class='img-info'>
+                                  <h4>Image Title 3</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+
+                      <div class="gallery_product filter category3">
+                        <a class="fancybox" rel="ligthbox" href="./assets/Gallery/Netflix-React_main.png">
+                            <img class="img-responsive" alt="" src="./assets/Gallery/Netflix-React.png" width="360" />
+                            <div class='img-info'>
+                                <h4>Image Title 4</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </a>
+                      </div>
+
+                      <div class="gallery_product filter category1">
+                        <a class="fancybox" rel="ligthbox" href="./assets/Gallery/netflix-main.png">
+                            <img class="img-responsive" alt="" src="./assets/Gallery/Netflix.png" width="360" />
+                            <div class='img-info'>
+                                <h4>Image Title 2</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </a>
+                      </div>
+          
+                      
+          
+                      <div class="gallery_product filter category1">
+                          <a class="fancybox" rel="ligthbox" href="./assets/Gallery/carUi.png">
+                              <img class="img-responsive" alt="" src="./assets/Gallery/carUi.png" width="360" />
+                              <div class='img-info'>
+                                  <h4>Image Title 5</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category1">
+                          <a class="fancybox" rel="ligthbox" href="./assets/Gallery/zomato-main.png">
+                              <img class="img-responsive" alt="" src="./assets/Gallery/zomato.png" width="360" />
+                              <div class='img-info'>
+                                  <h4>Image Title 6</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category1">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=1066">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=1066" />
+                              <div class='img-info'>
+                                  <h4>Image Title 7</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category2">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=506">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=506" />
+                              <div class='img-info'>
+                                  <h4>Image Title 8</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category3">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=1026">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=1026" />
+                              <div class='img-info'>
+                                  <h4>Image Title 9</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category1">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=1077">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=1077" />
+                              <div class='img-info'>
+                                  <h4>Image Title 10</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category2">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=102">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=102" />
+                              <div class='img-info'>
+                                  <h4>Image Title 11</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+                      <div class="gallery_product filter category3">
+                          <a class="fancybox" rel="ligthbox" href="https://picsum.photos/400/250?image=106">
+                              <img class="img-responsive" alt="" src="https://picsum.photos/400/250?image=106" />
+                              <div class='img-info'>
+                                  <h4>Image Title 12</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              </div>
+                          </a>
+                      </div>
+          
+              </div>
+            </div>
+
+          </div>
+          
+        </section>
+
+        <!-- GALLERY END -->
 
         <!-- Blog Section -->
         <section class="blog section" id="service">
@@ -687,5 +851,10 @@
     <script>
         AOS.init();
     </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+	<script src="./js/gallery.js"></script>
+
+    
   </body>
 </html>

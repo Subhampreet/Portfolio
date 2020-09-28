@@ -1,0 +1,67 @@
+
+
+/*	general	*/
+
+.gallery{
+    padding: 0 30px;
+}
+
+/*	gallery */
+
+
+
+.portfolio .filter-button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    border: 2px solid #ce0934;
+	padding:5px 10px;
+    text-align: center;
+    color: #ce0934;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.portfolio .filter-button:hover,
+.portfolio .filter-button:focus,
+.portfolio .filter-button.active{
+    color: #ffffff;
+    background-color:#ce0934 ;
+	outline:none;
+}
+.portfolio .gallery_product{
+    margin: 0px;
+	padding:0;
+    position:relative;
+    margin-bottom: -8px;
+}
+
+
+.portfolio .gallery_product .img-info{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+    top:0;
+    font-family: 'Rubik', sans-serif;
+    display:none;
+	-webkit-transition: 2s;
+    transition: 2s;
+}
+
+.portfolio .gallery_product .img-info p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    /* width: 90%; */
+    letter-spacing: 0.08rem;
+    font-size: 14px;
+    /* line-height: 95%; */
+}
+
+.portfolio .gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
