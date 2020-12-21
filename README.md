@@ -1,6 +1,8 @@
-<h1 align="center">Subhampreet Portfolio Website ⚡<h1>
+<h1 align="center">Subhampreet Portfolio Website ⚡</h1>
 
-This is my portfolio website, using HTML, CSS and Vanilla JavaScript. The complete website is designed and developed by me.
+<p align="center">The portfolio website <a href="https://subhampreet.netlify.app/">subhampreet.com</a> built with HTML, CSS, and JavaScript and hosted with <a href="https://www.netlify.com/">Netlify</a></p>
+
+### This is my portfolio website, using HTML, CSS and Vanilla JavaScript. The complete website is designed and developed by me.
 
 ### 🚨 Forking this repo (please read!)
 
